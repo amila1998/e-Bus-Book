@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/drawable/button_gradiant_1.xml" value="0.4036458333333333" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/drawable/button_gradiant_2.xml" value="0.4036458333333333" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/drawable/button_selector.xml" value="0.4036458333333333" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/drawable/edittext_bg.xml" value="0.2890625" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/drawable/homebutton.xml" value="0.4036458333333333" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.4036458333333333" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.15208333333333332" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.355078125" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout-w936dp/activity_login.xml" value="0.2046875" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/activity_get_aticket.xml" value="0.3875" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/activity_log_in.xml" value="0.25" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/activity_main_bus.xml" value="0.27291666666666664" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/activity_my_account_settings.xml" value="0.3875" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/activity_register_user.xml" value="0.33" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/activity_setting_nav.xml" value="0.2755208333333333" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/activity_start_up.xml" value="0.25" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/fragment_account.xml" value="0.3875" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/fragment_first.xml" value="0.3875" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/fragment_home.xml" value="0.33" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/fragment_notifications.xml" value="0.27291666666666664" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/fragment_profile_settings.xml" value="0.25" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/fragment_search.xml" value="0.27291666666666664" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/fragment_second.xml" value="0.3875" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/layout/fragment_settings.xml" value="0.33" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/menu/item.xml" value="0.36822916666666666" />
+        <entry key="..\:/AmilaSLIIT/MAD/app/src/main/res/menu/items.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

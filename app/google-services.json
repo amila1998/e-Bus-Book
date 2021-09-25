@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "225466768619",
+    "project_id": "ebusbook-bae1d",
+    "storage_bucket": "ebusbook-bae1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225466768619:android:aacfbc52971be7ce1af2ae",
+        "android_client_info": {
+          "package_name": "com.ebookbus.ebusbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225466768619-upk7v7ljjuvamj1orqie323vlvsbctrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqdc8qhDtNwxlWolhC7LugnWhREijHELs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225466768619-upk7v7ljjuvamj1orqie323vlvsbctrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
