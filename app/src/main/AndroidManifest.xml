@@ -13,9 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EbusBook">
         <activity
+            android:name=".UserQRCodeScannerActivity"
+            android:exported="true"
+            android:parentActivityName=".GetATicketActivity"/>
+        <activity
             android:name=".GetATicketActivity"
             android:exported="true"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".startUp"
             android:exported="true">
