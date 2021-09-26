@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ebookbus.ebusbook">
 
+    <permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
 
@@ -13,9 +16,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EbusBook">
         <activity
+            android:name=".AddaTicketActivity"
+            android:exported="true"
+            android:parentActivityName=".GetATicketActivity" />
+        <activity
+            android:name=".QRCodeGenaraterActivity"
+            android:exported="true"
+            android:parentActivityName=".GetATicketActivity" />
+        <activity
             android:name=".UserQRCodeScannerActivity"
             android:exported="true"
-            android:parentActivityName=".GetATicketActivity"/>
+            android:parentActivityName=".GetATicketActivity" />
         <activity
             android:name=".GetATicketActivity"
             android:exported="true"

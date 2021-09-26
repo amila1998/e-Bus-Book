@@ -25,5 +25,19 @@ public class GetATicketActivity extends AppCompatActivity {
             }
         });
 
+        GenarateQRCodeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),QRCodeGenaraterActivity.class));
+            }
+        });
+
+        ManuallyGenarateTikecketBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),AddaTicketActivity.class));
+            }
+        });
+
     }
 }

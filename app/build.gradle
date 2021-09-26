@@ -59,6 +59,9 @@ dependencies {
     implementation "androidx.navigation:navigation-ui:$nav_version"
     implementation 'me.dm7.barcodescanner:zxing:1.9.13'
     implementation 'com.karumi:dexter:6.2.2'
+    implementation 'com.journeyapps:zxing-android-embedded:3.4.0'
+
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
 
 
 
