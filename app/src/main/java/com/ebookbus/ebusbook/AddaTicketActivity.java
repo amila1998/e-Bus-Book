@@ -24,7 +24,7 @@ import com.google.firebase.firestore.FirebaseFirestore;
 
 
 public class AddaTicketActivity extends AppCompatActivity {
-    Button getCurrLocBtn, GenTickBtn, mpayBtn;
+    Button getCurrLocBtn, GenTickBtn;
     EditText currLocatiointext, noplate, endLoc, fullQty, Half;
     FusedLocationProviderClient fusedLocationProviderClient;
     FirebaseAuth fAuth;
@@ -47,7 +47,6 @@ public class AddaTicketActivity extends AppCompatActivity {
         this.Half = findViewById(R.id.halfQty);
         this.fAuth = FirebaseAuth.getInstance();
         this.fStore = FirebaseFirestore.getInstance();
-        this.mpayBtn = findViewById(R.id.payBtn);
 
         GenTickBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -89,8 +88,6 @@ public class AddaTicketActivity extends AppCompatActivity {
                     @Override
                     public void onSuccess(DocumentReference documentReference) {
                         Toast.makeText(AddaTicketActivity.this, "Ticket is Genarated", Toast.LENGTH_SHORT).show();
-                        mpayBtn.setVisibility(View.VISIBLE);
-
 
                         //startActivity(new Intent(getApplicationContext(),ShowTicketActivi.class));
                     }
