@@ -118,6 +118,20 @@
         app:layout_constraintStart_toStartOf="@+id/fullQty"
         app:layout_constraintTop_toBottomOf="@+id/halfQty"
         app:layout_constraintVertical_bias="0.0" />
+    <Button
+        android:id="@+id/payBtn"
+        android:layout_width="201dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="48dp"
+        android:text="PAy NOW"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/halfQty"
+        app:layout_constraintHorizontal_bias="0.79"
+        app:layout_constraintStart_toStartOf="@+id/fullQty"
+        app:layout_constraintTop_toBottomOf="@+id/halfQty"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
