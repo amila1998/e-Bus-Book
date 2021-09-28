@@ -34,7 +34,7 @@ public class homeFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    Button getATicket;
+    Button getATicket , myTickets;
 
     public homeFragment() {
         // Required empty public constructor
@@ -75,6 +75,7 @@ public class homeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         getATicket = view.findViewById(R.id.getticketBtn);
+        myTickets = view.findViewById(R.id.myTicketBtn);
 
         return view;
     }
@@ -91,6 +92,16 @@ public class homeFragment extends Fragment {
                 startActivity(intent);
             }
         });
+
+        myTickets.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(homeFragment.this.getActivity(), MyTicketsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
        /** gotoProfileSettings.setOnClickListener(new View.OnClickListener() {
             //final NavController navController= Navigation.findNavController(view);

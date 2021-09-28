@@ -10,19 +10,22 @@
         android:id="@+id/manualgetTBtn"
         android:layout_width="279dp"
         android:layout_height="48dp"
-        android:text="Manually Genarate"
+        android:background="@drawable/button_selector"
+        android:text="@string/manually_genarate"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/scanQRbtn"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
+
         app:layout_constraintStart_toStartOf="@+id/scanQRbtn"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.439" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.36" />
 
     <Button
         android:id="@+id/scanQRbtn"
         android:layout_width="279dp"
         android:layout_height="48dp"
-        android:text="Scan QR Code"
+        android:text="@string/scan_qr_code"
+        android:background="@drawable/button_selector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/genQRCodeBtn"
         app:layout_constraintHorizontal_bias="0.0"
@@ -34,10 +37,35 @@
         android:id="@+id/genQRCodeBtn"
         android:layout_width="279dp"
         android:layout_height="48dp"
-        android:text="Genarate a QR CODE"
+        android:text="@string/genarate_a_qr_code"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/button_selector"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scanQRbtn"
         app:layout_constraintVertical_bias="0.154" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="211dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ebusbooklogo"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="412dp"
+        android:layout_height="429dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129"
+        app:srcCompat="@drawable/bg1"
+        android:contentDescription="@string/todo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

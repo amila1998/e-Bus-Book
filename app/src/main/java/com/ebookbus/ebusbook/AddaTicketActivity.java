@@ -10,6 +10,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -30,6 +31,7 @@ public class AddaTicketActivity extends AppCompatActivity {
     Button getCurrLocBtn, GenTickBtn, mpayBtn , mdelBtn;
     EditText currLocatiointext, noplate, endLoc, fullQty, Half;
     FusedLocationProviderClient fusedLocationProviderClient;
+    ImageView meditTicketbtn;
     TextView mtextView3;
     FirebaseAuth fAuth;
     FirebaseFirestore fStore;
@@ -54,6 +56,7 @@ public class AddaTicketActivity extends AppCompatActivity {
         this.mdelBtn= findViewById(R.id.delBtn);
         this.mpayBtn = findViewById(R.id.payBtn);
         this.mtextView3 = findViewById(R.id.textView3);
+        meditTicketbtn= findViewById(R.id.editTicketbtn);
 
         GenTickBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -99,6 +102,7 @@ public class AddaTicketActivity extends AppCompatActivity {
                         mdelBtn.setVisibility(View.VISIBLE);
                         mtextView3.setText("Total is Rs."+amount);
                         mtextView3.setVisibility(View.VISIBLE);
+                        meditTicketbtn.setVisibility(View.VISIBLE);
                         GenTickBtn.setVisibility(View.GONE);
                         noplate.setEnabled(false);
                         currLocatiointext.setEnabled(false);
@@ -115,12 +119,13 @@ public class AddaTicketActivity extends AppCompatActivity {
 
                             }
                         });
-
-
-
-
-
-                        mdelBtn.setOnClickListener(new View.OnClickListener() {
+                        meditTicketbtn.setOnClickListener(new View.OnClickListener() {
+                            @Override
+                            public void onClick(View view) {
+                                startActivity(new Intent(getApplicationContext(),TicketUpdateActivity.class));
+                            }
+                        });
+                mdelBtn.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
                                 String TID = ticket.getDocumentId();

@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".settingsFragment"
+    android:background="@drawable/bg1"
 
     >
 
@@ -20,7 +21,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="100dp"
         android:background="@drawable/button_selector"
-        android:text="My Account Settings"
+        android:text="@string/my_account_settings"
         app:icon="@drawable/ic_baseline_account_circle_24"
         app:layout_constraintEnd_toEndOf="@+id/a"
         app:layout_constraintHorizontal_bias="0.0"
@@ -33,10 +34,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/profileSettingsbtn"
         android:layout_alignParentStart="true"
-
+        app:icon="@drawable/paymenic"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_selector"
-        android:text="Profile Settings"
+        android:text="@string/payment_settings"
         app:layout_constraintEnd_toEndOf="@+id/b"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/b"
@@ -48,10 +49,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/a"
         android:layout_alignParentStart="true"
-
+        app:icon="@drawable/lanic"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_selector"
-        android:text="Profile Settings"
+        android:text="@string/languages"
         app:layout_constraintEnd_toEndOf="@+id/c"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/c"
@@ -63,10 +64,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/b"
         android:layout_alignParentStart="true"
-
+        app:icon="@drawable/reportpic"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_selector"
-        android:text="Profile Settings"
+        android:text="@string/report_a_problems"
         app:layout_constraintEnd_toEndOf="@+id/d"
         app:layout_constraintStart_toStartOf="@+id/d"
         app:layout_constraintTop_toBottomOf="@+id/b" />
@@ -79,38 +80,27 @@
         android:layout_alignParentStart="true"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_selector"
-        android:text="Profile Settings"
-        app:layout_constraintEnd_toEndOf="@+id/j"
-        app:layout_constraintStart_toStartOf="@+id/j"
-        app:layout_constraintTop_toBottomOf="@+id/c" />
-
-    <Button
-        android:id="@+id/j"
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/d"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/button_selector"
-        android:text="Profile Settings"
+        android:text="@string/support_service"
         app:layout_constraintEnd_toEndOf="@+id/logout"
         app:layout_constraintStart_toStartOf="@+id/logout"
-        app:layout_constraintTop_toBottomOf="@+id/d" />
+        app:icon="@drawable/supic"
+        app:layout_constraintTop_toBottomOf="@+id/c" />
+
 
     <Button
         android:id="@+id/logout"
         android:layout_width="260dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/j"
+        app:icon="@drawable/logoutic"
 
         android:layout_marginStart="65dp"
-        android:layout_marginTop="20dp"
         android:layout_marginEnd="86dp"
         android:background="@drawable/button_selector"
-        android:text="LogOUT"
+        android:text="@string/string_logout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/j"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/d"
+        app:layout_constraintVertical_bias="0.358" />
 </androidx.constraintlayout.widget.ConstraintLayout>

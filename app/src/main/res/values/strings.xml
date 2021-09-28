@@ -128,6 +128,38 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="title_activity_update_ticket">updateTicket</string>
+    <string name="this_is_price">This is Price</string>
+    <string name="this_is_end_location">This is End Location</string>
+    <string name="this_is_start_location">This is start Location</string>
+    <string name="this_is_number_plate">This is Number Plate</string>
+    <string name="delete">DELETE</string>
+    <string name="pay">Pay</string>
+    <string name="update">Update</string>
+    <string name="update_my_account">Update My Account</string>
+    <string name="string_update_my_account">update my account</string>
+    <string name="reset_password">Reset PassWord</string>
+    <string name="string_reset_password">Reset password</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="string_delete_account">Delete Account</string>
+    <string name="verify">verify Account</string>
+    <string name="genarate_a_qr_code">Genarate a QR CODE</string>
+    <string name="scan_qr_code">Scan QR Code</string>
+    <string name="manually_genarate">Manually Genarate</string>
+    <string name="todo">TODO</string>
+
+    <string name="my_account_settings">My Account Settings</string>
+    <string name="payment_settings">Payment Settings</string>
+    <string name="languages">Languages</string>
+    <string name="report_a_problems">Report a problems</string>
+    <string name="support_service">Support Service</string>
+    <string name="logout">LogOUT</string>
+    <string name="string_logout">LogOUT</string>
+    <string name="textview">Name</string>
+
+    <string name="Email">Email</string>
+    <string name="Phone">Phone</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="update2">UPDATE</string>
 
 
 </resources>
